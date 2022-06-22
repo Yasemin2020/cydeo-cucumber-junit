@@ -62,4 +62,13 @@ public class BrowserUtils {
         wait.until(ExpectedConditions.invisibilityOf(webelement));
     }
 
+    /**
+     * This method will accept a dropdown as a WebElement and return all the options' text in a List of String.
+     * @param expectedInURL
+     */
+
+    public static void verifyURLContains(String expectedInURL){
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInURL));
+    }
+
 }
