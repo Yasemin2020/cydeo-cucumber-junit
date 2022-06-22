@@ -1,5 +1,5 @@
 Feature: Examples of Cucumber data table implementations
-  @wip
+
   Scenario: List of fruits I like
     Then user should see fruits I like
       | kiwi        |
@@ -13,7 +13,7 @@ Feature: Examples of Cucumber data table implementations
     #control+alt+L
 
 
-  @wip
+
   Scenario: User should be able to see all 12 months in months
   dropdown
     Given User is on the dropdowns page of practice tool
