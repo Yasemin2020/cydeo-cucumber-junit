@@ -44,6 +44,9 @@ public class OrderPage extends BasePage {
     @FindBy(css = "button[type='submit']")
     public WebElement processButton;
 
+    @FindBy(xpath = "//table[@class='table is-fullwidth']/tbody/tr[1]/td[1]")
+    public WebElement newCustomerCell;
+
    
 
 
